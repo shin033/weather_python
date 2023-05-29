@@ -19,8 +19,8 @@ def weather_check(city):
     weather = soup.select('#wob_tm')[0].getText().strip()
 
     print(f'''Day of the week and time: {time}
-              Precipitation Information: {precipitation}
-              Temperature: {weather}°C''')
+    Precipitation Information: {precipitation}
+    Temperature: {weather}°C''')
 
 
 if __name__ == '__main__':
